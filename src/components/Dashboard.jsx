@@ -40,7 +40,7 @@ const Dashboard = () => {
     filteredProducts?.map((product) => (
       <tr key={product.id} className="text-left">
         <td className="w-10">
-          <img src="src/assets/Avocado Hass.jpg"  style={{ width: '40px', height: '40px', marginLeft: '20px' }}  />
+          <img src="./assets/Avocado Hass.jpg"  style={{ width: '40px', height: '40px', marginLeft: '20px' }}  />
         </td>
         <td className="px-2 py-4">
           {product.name}
